@@ -1,1 +1,1 @@
-# Style-of-The-CSS
+# Style of The CSS
