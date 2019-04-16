@@ -1,7 +1,9 @@
 # Style of The CSS
 
-Card Flip : https://codepen.io/muspriandi/pen/bJYVwV (demo)
+Card Flip : https://codepen.io/muspriandi/full/bJYVwV (demo)
+
 Gradient Borders : https://codepen.io/muspriandi/full/gyXyvg (demo) 
+
 
 References :
   - GitHub : https://github.com
