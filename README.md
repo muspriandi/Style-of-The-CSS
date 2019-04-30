@@ -2,7 +2,7 @@
 
 Card Flip : https://codepen.io/muspriandi/details/bJYVwV (demo)<br>
 Gradient Borders : https://codepen.io/muspriandi/details/gyXyvg (demo)<br>
-Sequential Animation Tables : https://codepen.io/muspriandi/full/WWWWRe (demo)
+Sequential Animation Tables : https://codepen.io/muspriandi/details/WWWWRe (demo)
 
 References :
   - GitHub : https://github.com
