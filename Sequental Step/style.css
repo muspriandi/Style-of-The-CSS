@@ -1,0 +1,28 @@
+th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+th {
+    background:gray;
+    color:white;
+}
+
+td {
+    color:black;
+}
+
+#tabel-array {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#keterangan {
+    color: black;
+    text-align: center;
+}
+
+.active {
+    background : lightblue;
+    color: black;
+}
