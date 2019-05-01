@@ -1,0 +1,66 @@
+/* Setting warna latar belakang */
+body {
+    margin: 0;
+}
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+.hitam {
+    height: 300px;
+    background-color: black;
+    text-align: center;
+}
+.putih {
+    height: 300px;
+    background-color: white;
+    text-align: center;
+}
+
+/* Inti CSS */
+.buttonHover {
+    position: absolute;
+    z-index: 0; /* Membuat letak index diatas kelas css 'buttonHover:before' */
+    padding: 25px;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 50px;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(90deg, purple, blue, lime, yellow, purple); /* Memberikan warna dengan linear gradient  */
+    background-size: 500%;
+}
+/* Animasi warna bergerak */
+.buttonHover:hover {
+    animation: Gradient 10s linear infinite;    /* Aktifkan dan buat animasi menjadi infinity loop */
+}
+/* Efek sinar pada button */
+.buttonHover:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -5px;
+    left: -5px; 
+    right: -5px;
+    bottom: -5px;
+    border-radius: 50px;
+    background: linear-gradient(90deg, purple, blue, lime, yellow, purple);
+    background-size: 500%;
+    transition: 0.5s;
+    opacity: 0; /* Membuat efek sinar tidak terlihat */
+}
+/* aktifkan efek sinar pada button saat hover */
+.buttonHover:hover:before {
+    animation: Gradient 10s linear infinite;
+    filter: blur(20px);
+    opacity: 1;
+}
+/* Membuat warna seolah-olah berganti */
+@keyframes Gradient {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 500%;
+    }
+}
