@@ -1,8 +1,10 @@
 # Template Script
 
-Card Flip : https://codepen.io/muspriandi/details/bJYVwV (demo)<br>
-Gradient Borders : https://codepen.io/muspriandi/details/gyXyvg (demo)<br>
-Sequential Animation Tables : https://codepen.io/muspriandi/details/WWWWRe (demo)
+Demo :
+  - Card Flip : https://codepen.io/muspriandi/details/bJYVwV<br>
+  - Gradient Borders : https://codepen.io/muspriandi/details/gyXyvg<br>
+  - Sequential Animation Tables : https://codepen.io/muspriandi/details/WWWWRe
+
 
 References :
   - GitHub : https://github.com
